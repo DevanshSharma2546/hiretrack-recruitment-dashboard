@@ -1,6 +1,6 @@
 import Dexie from 'dexie';
 
-export const db = new Dexie('TalentFlowDB');
+export const db = new Dexie('HireTrackDB');
 
 db.version(1).stores({
   jobs: '++id, title, slug, status, tags, order, createdAt',
@@ -21,9 +21,9 @@ export const generateSeedData = async () => {
 
     // Generate users with demo credentials
     const users = [
-      { email: 'admin@talentflow.com', password: 'admin123', role: 'admin', name: 'Admin User' },
-      { email: 'hr@talentflow.com', password: 'hr123', role: 'hr', name: 'HR Manager' },
-      { email: 'demo@talentflow.com', password: 'demo123', role: 'hr', name: 'Demo User' }
+      { email: 'admin@HireTrack.com', password: 'admin123', role: 'admin', name: 'Admin User' },
+      { email: 'hr@HireTrack.com', password: 'hr123', role: 'hr', name: 'HR Manager' },
+      { email: 'demo@HireTrack.com', password: 'demo123', role: 'hr', name: 'Demo User' }
     ];
     await db.users.bulkAdd(users);
 

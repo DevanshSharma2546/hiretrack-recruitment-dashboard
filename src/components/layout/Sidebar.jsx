@@ -16,7 +16,7 @@ export default function Sidebar({ activePage, onNavigate }) {
     <aside className="sidebar">
       <div className="sidebar-logo">
         <div className="sidebar-logo-icon">⚡</div>
-        <div className="sidebar-logo-text">Talent<span>Flow</span></div>
+        <div className="sidebar-logo-text">Hire<span>Track</span></div>
       </div>
 
       <nav className="sidebar-nav">

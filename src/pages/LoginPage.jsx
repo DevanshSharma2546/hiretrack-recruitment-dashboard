@@ -33,7 +33,7 @@ export default function LoginPage() {
       <div className="login-card">
         <div className="login-logo">
           <div className="login-logo-icon">⚡</div>
-          <div className="login-logo-text">Talent<span>Flow</span></div>
+          <div className="login-logo-text">Hire<span>Track</span></div>
         </div>
         <h1 className="login-title">Welcome back</h1>
         <p className="login-subtitle">Sign in to your hiring dashboard</p>
@@ -44,7 +44,7 @@ export default function LoginPage() {
             <input
               type="email"
               className="input"
-              placeholder="admin@talentflow.com"
+              placeholder="admin@HireTrack.com"
               value={email}
               onChange={e => setEmail(e.target.value)}
               required
@@ -74,9 +74,9 @@ export default function LoginPage() {
         <div className="login-hint">
           <p>Demo accounts (click to fill):</p>
           <code>
-            <a href="#" onClick={e => fillDemo(e, 'admin@talentflow.com', 'admin123')} style={{ color: 'var(--accent)', textDecoration: 'none' }}>admin@talentflow.com / admin123</a>{'\n'}
-            <a href="#" onClick={e => fillDemo(e, 'hr@talentflow.com', 'hr123')} style={{ color: 'var(--accent)', textDecoration: 'none' }}>hr@talentflow.com / hr123</a>{'\n'}
-            <a href="#" onClick={e => fillDemo(e, 'demo@talentflow.com', 'demo123')} style={{ color: 'var(--accent)', textDecoration: 'none' }}>demo@talentflow.com / demo123</a>
+            <a href="#" onClick={e => fillDemo(e, 'admin@HireTrack.com', 'admin123')} style={{ color: 'var(--accent)', textDecoration: 'none' }}>admin@HireTrack.com / admin123</a>{'\n'}
+            <a href="#" onClick={e => fillDemo(e, 'hr@HireTrack.com', 'hr123')} style={{ color: 'var(--accent)', textDecoration: 'none' }}>hr@HireTrack.com / hr123</a>{'\n'}
+            <a href="#" onClick={e => fillDemo(e, 'demo@HireTrack.com', 'demo123')} style={{ color: 'var(--accent)', textDecoration: 'none' }}>demo@HireTrack.com / demo123</a>
           </code>
         </div>
       </div>
