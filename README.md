@@ -10,12 +10,12 @@ This project is built entirely on the frontend and uses mock APIs and local stor
 
 ## Features
 
-* 📊 Dashboard with recruitment metrics
-* 💼 Job management (view and manage job postings)
-* 👤 Candidate tracking system
-* 🔄 Drag-and-drop hiring pipeline
-* 🧪 Assessment tracking
-* 🔐 Simulated authentication system
+*  Dashboard with recruitment metrics
+*  Job management (view and manage job postings)
+*  Candidate tracking system
+*  Drag-and-drop hiring pipeline
+*  Assessment tracking
+*  Simulated authentication system
 
 ---
 
